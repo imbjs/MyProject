@@ -1,0 +1,13 @@
+package callbyvalue;
+
+public class SumCallValueMain{
+	public static void main (String[] args){
+		SumCallValue obj=new SumCallValue();
+		int num1=5;
+		int num2=6;
+		
+		obj.multiMeth(num1, num2);
+		int result= obj.multiMeth(num1, num2);
+		System.out.println("main print °öÇÑ °á°ú´Â"+result);
+	}
+}
