@@ -1,0 +1,16 @@
+SQL> desc member;
+ 이름                                      널?      유형
+ ----------------------------------------- -------- --------------
+ ID                                        NOT NULL VARCHAR2(16)
+ NAME                                               VARCHAR2(20)
+ PHONE1                                             VARCHAR2(3)
+ PHONE2                                             VARCHAR2(4)
+ PHONE3                                             VARCHAR2(4)
+ POST                                               VARCHAR2(5)
+ ADDR1                                              VARCHAR2(50)
+ ADDR2                                              VARCHAR2(30)
+ CARDNO                                             VARCHAR2(6)
+ JOB                                                VARCHAR2(30)
+ PICTURE                                            VARCHAR2(100)
+ PASSWORD                                           VARCHAR2(20)
+ INPUTDATE                                          VARCHAR2(30)
