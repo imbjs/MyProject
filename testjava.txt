@@ -8,6 +8,6 @@ public class SumCallValueMain{
 		
 		obj.multiMeth(num1, num2);
 		int result= obj.multiMeth(num1, num2);
-		System.out.println("main print °öÇÑ °á°ú´Â"+result);
+		System.out.println("main print ê³±í•œê²°ê³¼ëŠ”"+result);
 	}
 }
